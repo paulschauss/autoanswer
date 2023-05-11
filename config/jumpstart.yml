@@ -12,4 +12,6 @@ solargraph: false
 register_with_account: false
 apns: false
 fcm: false
-collect_billing_address: false
+collect_billing_address: true
+payment_processors:
+- stripe
