@@ -58,7 +58,8 @@ module Jumpstart
         user = User.new(
           email: auth.info.email,
           terms_of_service: true,
-          name: auth.info.name
+          name: auth.info.name,
+          google_token: auth.credentials.token
         )
         user.password = ::Devise.friendly_token[0, 20] if user.respond_to?(:password=)
         user.skip_confirmation!
