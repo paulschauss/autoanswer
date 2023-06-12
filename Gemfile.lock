@@ -382,7 +382,7 @@ GEM
       railties (>= 5.2)
     rexml (3.2.5)
     rotp (6.2.2)
-    rqrcode (2.1.2)
+    rqrcode (2.2.0)
       chunky_png (~> 1.0)
       rqrcode_core (~> 1.0)
     rqrcode_core (1.2.0)
@@ -538,7 +538,7 @@ DEPENDENCIES
   receipts (~> 2.1)
   redis (~> 5.0)
   rotp (~> 6.2)
-  rqrcode (~> 2.1)
+  rqrcode (~> 2.2)
   ruby-oembed (~> 0.16.0)
   selenium-webdriver
   sprockets-rails (>= 3.4.1)
